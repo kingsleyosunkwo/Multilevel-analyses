@@ -28,10 +28,12 @@ Refer to the OECD Note on Equivalence Scales for guidance.
 Removing Missing Data
 ```
 drop if ep005_ < 0
+```
 
 Keeping Specific Countries
 ```
 keep if country == 20 | country == 11
+```
 
 
 
