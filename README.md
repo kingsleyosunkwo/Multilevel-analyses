@@ -5,7 +5,7 @@ Entrepreneurship and regional development – OLS and Multilevel Analysis of Swe
 - [OPENING AND SAVING FILES](#opening-and-saving-files)
 - [DATA MANIPULATION](#data-manipulation)
 - [REGRESSION MODELS](#regression-models)
-- [PPOOLED OLS](#pooled-oLS)
+- [POOLED OLS](#pooled-oLS)
 - [YEAR/WAVE-SPECIFIC OLS](#year/wave-specific-oLS)
 - [MULTILEVEL MODELING](#multilevel-modeling)
 - [EXAMPLES OF ADDITIONAL COMMANDS](#examples-of-additional-commands)
@@ -44,5 +44,20 @@ gen phy_health = self_perceived_health
 replace phy_health = 1 if self_perceived_health == 5
 replace phy_health = 5 if self_perceived_health == 1
 ```
+
+# REGRESSION MODELS
+# POOLED OLS
+```
+reg Y X1 X2 X3
+```
+# YEAR/WAVE-SPECIFIC OLS
+```
+reg Y X1 X2 X3 if int_year == XXXX
+```
+# MULTILEVEL MODELING
+```
+mixed sphus female age i.ep005_ || country:
+```
+
 
 
