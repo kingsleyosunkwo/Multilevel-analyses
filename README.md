@@ -35,5 +35,14 @@ Keeping Specific Countries
 keep if country == 20 | country == 11
 ```
 
+Generating New Variables
+```
+gen self_perceived_health = sphus
+replace self_perceived_health = . if sphus < 0
+
+gen phy_health = self_perceived_health
+replace phy_health = 1 if self_perceived_health == 5
+replace phy_health = 5 if self_perceived_health == 1
+```
 
 
