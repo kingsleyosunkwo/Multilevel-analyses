@@ -59,5 +59,36 @@ reg Y X1 X2 X3 if int_year == XXXX
 mixed sphus female age i.ep005_ || country:
 ```
 
+# EXAMPLES OF ADDITIONAL COMMANDS
+Filtering Data
+```
+// Keep observations for Switzerland
+keep if country == 20
+
+// Drop countries
+drop if country == 20
+```
+Tabulate and Summarize
+```
+tab country
+su sphus
+```
+Result Table
+```
+estout Pooled Wave Clustered using results.rtf, cells("b(star fmt(%9.2f)) se(par)") stats(ll N, fmt(%9.0g)) legend starlevels(* 0.10 ** 0.05 *** 0.01)
+```
+
+
+
+#TESTS FOR RESIDUALS AND MULTICOLLINEARITY
+Residuals
+```
+predict residuals, r
+kdensity residuals, normal
+```
+Multicollinearity
+```
+estat vif
+``` 
 
 
