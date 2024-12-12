@@ -2,11 +2,11 @@
 Entrepreneurship and regional development – OLS and Multilevel Analysis of Sweden 
 
 ## Table of Contents
-- [Opening and Saving Files] (#Opening-and-Saving-Files)
-- [Data Manipulation] (#Data-Manipulation)
-- [Regression Models] (#Regression-Models)
-- [Pooled OLS] (#Pooled-OLS)
-- [Year/Wave-Specific OLS] (#Year/Wave-Specific-OLS)
-- [Multilevel Modeling] (#Multilevel-Modeling)
-- [Examples of Additional Commands] (#Examples-of-Additional-Commands)
-- [Tests for Residuals and Multicollinearity] (#Tests-for-Residuals-and-Multicollinearity)
+- [OPENING AND SAVING FILES] (#opening-and-saving-files)
+- [DATA MANIPULATION] (#data-manipulation)
+- [REGRESSION MODELS] (#regression-models)
+- [PPOOLED OLS] (#pooled-oLS)
+- [YEAR/WAVE-SPECIFIC OLS] (#year/wave-specific-oLS)
+- [MULTILEVEL MODELING] (#multilevel-modeling)
+- [EXAMPLES OF ADDITIONAL COMMANDS] (#examples-of-additional-commands)
+- [TESTS FOR RESIDUALS AND MULTICOLLINEARITY] (#tests-for-residuals-and-multicollinearity)
