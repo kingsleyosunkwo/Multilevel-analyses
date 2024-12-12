@@ -30,4 +30,8 @@ Removing Missing Data
 drop if ep005_ < 0
 '''
 
-
+```
+# Shape of the dataset
+<dim(superstore_sales_xlsx)
+(5681, 11)
+```
