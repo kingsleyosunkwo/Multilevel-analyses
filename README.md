@@ -80,7 +80,7 @@ estout Pooled Wave Clustered using results.rtf, cells("b(star fmt(%9.2f)) se(par
 
 
 
-#TESTS FOR RESIDUALS AND MULTICOLLINEARITY
+# TESTS FOR RESIDUALS AND MULTICOLLINEARITY
 Residuals
 ```
 predict residuals, r
